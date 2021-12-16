@@ -55,11 +55,11 @@ Quick start
    If you have some projects, using common these city and country databases, you can use tha same `GEOIP_PATH` - no need to have multiple copies of databases in every project.
 
 
-6. (Optionally) You can change default paths to db in `settings.py`:
+6. (Optionally) You can change default names of databases in `settings.py`:
 
     ```python
-    GEOIP_COUNTRY = '/your_project/geo_db/GeoLite2-City.mmdb'
-    GEOIP_CITY = '/your_project/geo_db/GeoLite2-Country.mmdb'
+    GEOIP_COUNTRY = 'Custom-GeoLite2-City.mmdb'
+    GEOIP_CITY = 'Custom-GeoLite2-Country.mmdb'
     ```
 
 7. Enable localtime in your templates.
